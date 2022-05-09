@@ -1,1 +1,1 @@
-https://natahendriksen.github.io/shelter/pages/main/index.html
+https://natahendriksen.github.io/shelter/pages/pets/
