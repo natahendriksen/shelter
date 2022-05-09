@@ -1,0 +1,60 @@
+:root {
+    --font-primary: Georgia, 'Times New Roman', Times, serif;
+    --font-secondary: Arial, Helvetica, sans-serif;
+    --color-primary: #F1CDB3;    
+    --color-dark-s: #CDCDCD;    
+    --color-dark-m: #B2B2B2;
+    --color-dark-l: #545454;
+    --color-dark-xl: #4C4C4C;
+    --color-dark-3xl: #292929;
+    --color-light-s: #FAFAFA;
+    --color-light-l: #F6F6F6;
+}
+
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+header, main, footer {
+    width: 1280px;
+    margin: 0 auto;
+}
+ 
+section {
+    width: 100%;
+    padding: 0 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.not-only {
+    background: url(../../assets/images/background-gradient.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 180px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin-top: 60px;
+    border: 2px red solid;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 0 0 0 35px;
+}
+
+
